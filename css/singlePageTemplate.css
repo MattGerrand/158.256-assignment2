@@ -37,9 +37,8 @@ header {
 }
 nav {
 	float: right;
-	width: 50%;
+	width: 480px;
 	text-align: right;
-	margin-right: 25px;
 }
 header nav ul {
 	list-style: none;
@@ -105,7 +104,7 @@ ul li:hover a {
 	float: left;
 	padding-left: 20px;
 	padding-right: 20px;
-	color: #787878;
+	color: #525252;
 }
 .about {
 	padding-left: 25px;
@@ -150,7 +149,7 @@ ul li:hover a {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	color: #787878;
+	color: #525252;
 }
 /* Parallax Section */
 .banner {
@@ -368,11 +367,11 @@ nav ul li {
 	display: block
 }
 .hero {
-	margin-top: 96px;
+	margin-top: 125px;
 	background-image: url("../images/banner-small.jpg");
 }
 .hero_small {
-	margin-top: 96px;
+	margin-top: 125px;
 	background-image: url("../images/banner-small.jpg");
 }
 }
@@ -486,11 +485,11 @@ nav ul li {
 	display: block
 }
 .hero {
-	margin-top: 96px;
+	margin-top: 125px;
 	background-image: url("../images/banner-small.jpg");
 }
 .hero_small {
-	margin-top: 96px;
+	margin-top: 125px;
 	background-image: url("../images/banner-small.jpg");
 }
 }
@@ -498,7 +497,7 @@ nav ul li {
 /* Desktops */
 @media ( min-width : 768px ) {
 .logo {
-	width: 30%;
+	width: 165px;
 }
 .text_column {
 	width: 100%;
@@ -516,6 +515,29 @@ nav ul li {
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
+	font-size: 17px;
+}
+.gallery .thumbnail p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 17px;
+	color: #525252;
+}
+.parallax_description {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	width: 40%;
+	float: right;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 17px;
 }
 .banner {
 	margin-top: 0px;
